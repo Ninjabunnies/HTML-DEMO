@@ -1,0 +1,85 @@
+body{
+	margin:0;
+	padding:0;
+	background-image: url('././img/happy_cat.jpg');
+
+}
+div{
+	border: 3px solid black;
+	
+}
+header{
+	border: 3px solid black;
+}
+nav{
+	border: 3px solid black;
+
+}
+footer{
+	border: 3px solid black;
+}
+a:link{
+	color: white;
+}
+a:visited {
+	color: pink;
+}
+
+.container{
+	font-family: 'Dela Gothic One', cursive;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	color: white;
+}
+.header{
+	flex: 0 0 50px;
+	background-image: url('Images/Matrix.jpg'); /*alt="Matrix Code" by Absolute Chaos is licensed with CC BY-NC 2.0.*/
+	font-family: 'Dela Gothic One', cursive;
+	}
+
+.content-body{
+	flex: 1 1 auto;
+	display: flex;
+	
+	overflow: auto;
+
+}
+.content-body .content{
+	flex: 1 1 auto;
+	overflow: auto;
+	background-image: url('Images/happy_cat.jpg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100% ;
+}
+
+.content-body .nav{
+	flex: 0 0 100px;
+	overflow: auto;
+	background-image: url('Images/Matrix.jpg');
+	order: -1;
+}
+
+.content-body .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.content-body .Leftpic{
+	float: left;
+	width: 200px;
+	
+}
+
+.content-body .Rightpic{
+	float: right;
+	width: 200px;
+	
+}
+
+
+.footer{
+	flex: 0 0 50px;
+	background-image: url('Images/Matrix.jpg');
+}
