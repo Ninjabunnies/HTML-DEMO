@@ -34,7 +34,8 @@ a:visited {
 }
 .header{
 	flex: 0 0 50px;
-	background-image: url('Images/Matrix.jpg'); /*alt="Matrix Code" by Absolute Chaos is licensed with CC BY-NC 2.0.*/
+	background-image: url('Images/Matrix2.gif');
+	
 	font-family: 'Dela Gothic One', cursive;
 	}
 
@@ -48,15 +49,14 @@ a:visited {
 .content-body .content{
 	flex: 1 1 auto;
 	overflow: auto;
-	background-image: url('Images/happy_cat.jpg.jpg');
-	background-repeat: no-repeat;
-	background-size: 100% 100% ;
+	background: #022601;
 }
 
 .content-body .nav{
 	flex: 0 0 100px;
 	overflow: auto;
-	background-image: url('Images/Matrix.jpg');
+	background-image: url('Images/Matrix2.gif');
+	
 	order: -1;
 }
 
@@ -81,5 +81,6 @@ a:visited {
 
 .footer{
 	flex: 0 0 50px;
-	background-image: url('Images/Matrix.jpg');
+	background-image: url('Images/Matrix2.gif');
+	
 }
