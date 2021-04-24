@@ -27,15 +27,15 @@ a:visited {
 
 .container{
 	font-family: 'Dela Gothic One', cursive;
-	display: flex;
+	
 	flex-direction: column;
 	height: 100vh;
 	color: white;
 }
 .header{
-	flex: 0 0 50px;
+	flex: 0 0 75px;
 	background-image: url('Images/Matrix2.gif');
-	
+	padding: 25px;
 	font-family: 'Dela Gothic One', cursive;
 	}
 
@@ -43,13 +43,18 @@ a:visited {
 	flex: 1 1 auto;
 	display: flex;
 	
-	overflow: auto;
+	
 
 }
 .content-body .content{
 	flex: 1 1 auto;
 	overflow: auto;
 	background: #022601;
+	padding:150px;
+	border: solid;
+	border-color: black;
+	border-width: 10px;
+	
 }
 
 .content-body .nav{
@@ -80,7 +85,8 @@ a:visited {
 
 
 .footer{
-	flex: 0 0 50px;
+	flex: 0 0 20px;
+	text-align: center;
 	background-image: url('Images/Matrix2.gif');
 	
 }
