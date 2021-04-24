@@ -1,20 +1,19 @@
 body{
 	margin:0;
-	padding:0;
-	background-image: url('././img/happy_cat.jpg');
+	padding:100px;
+	background-image: url('Images/Matrix2.gif');
+	background-repeat:repeat;
+	
 
 }
 div{
-	border: 3px solid black;
-	
+	border: 5px solid black;
 }
+
 header{
 	border: 3px solid black;
 }
-nav{
-	border: 3px solid black;
 
-}
 footer{
 	border: 3px solid black;
 }
@@ -34,8 +33,8 @@ a:visited {
 }
 .header{
 	flex: 0 0 75px;
-	background-image: url('Images/Matrix2.gif');
-	padding: 25px;
+	background:black;
+	
 	font-family: 'Dela Gothic One', cursive;
 	}
 
@@ -54,14 +53,16 @@ a:visited {
 	border: solid;
 	border-color: black;
 	border-width: 10px;
+
 	
 }
 
 .content-body .nav{
 	flex: 0 0 100px;
 	overflow: auto;
-	background-image: url('Images/Matrix2.gif');
-	
+	background: black ;
+
+	padding:20px;
 	order: -1;
 }
 
@@ -74,12 +75,18 @@ a:visited {
 .content-body .Leftpic{
 	float: left;
 	width: 200px;
+	padding:5px;
+	
 	
 }
 
 .content-body .Rightpic{
+	
 	float: right;
 	width: 200px;
+	padding: 5px;
+	
+	
 	
 }
 
@@ -87,6 +94,6 @@ a:visited {
 .footer{
 	flex: 0 0 20px;
 	text-align: center;
-	background-image: url('Images/Matrix2.gif');
+	background: black;
 	
 }
