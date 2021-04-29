@@ -29,15 +29,16 @@ a:visited {
 	color: pink;
 	
 }
-.class{order:2;
- align-content: flex-end;}
 
 .class2 { display: flex; 
 	flex-wrap: wrap;
+	order:2;
+	justify-content: flex-end; }
 	
 
+
+.class1 {display: flex; flex-wrap: wrap;
 }
-.class1 {display: flex; flex-wrap: wrap;}
 
 .container{
 	font-family: 'Dela Gothic One', cursive;
@@ -97,7 +98,7 @@ a:visited {
 	order: -1;
 	width: 200px;
 	padding: 5px;
-	
+	order:2;
 	
 	
 }
